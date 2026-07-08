@@ -1,0 +1,5 @@
+globalaccount = "b0062498-5417-4697-8269-8734b8a758da"
+subaccount    = "781b05dc-2353-4283-adbc-0cd1452cc2a7"
+region        = "eu10"
+cf_org        = "org-build-igen43-lab-inhouse-jv4r8a7p"
+cf_space      = "bookshop-dev"
