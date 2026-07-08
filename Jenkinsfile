@@ -1,7 +1,21 @@
 pipeline {
     agent any
 
+environment {
+        CF_CREDS = credentials('cf-creds')
+            }
+
     stages {
+         stage('CF Login') {
+    steps {
+        bat """
+        cf login ^
+        -a https://api.cf.eu10-005.hana.ondemand.com ^
+        -u %CF_CREDS_USR% ^
+        -p %CF_CREDS_PSW%
+        """
+    }
+}
 
         stage('Check MBT') {
             steps {
@@ -21,6 +35,8 @@ pipeline {
             }
         }
 
+       
+
         stage('Terraform Init') {
             steps {
                 dir('terraform') {
@@ -36,5 +52,28 @@ pipeline {
                 }
             }
         }
+        stage('Terraform Apply') {
+            steps {
+                dir('terraform') {
+                       bat 'terraform apply -auto-approve'
+                                 }
+                    }
+                }
+       stage('Target Space') {
+            steps {
+                    bat 'cf target -o org-build-igen43-lab-inhouse-jv4r8a7p -s bookshop-dev'
+                    }
+             }
+        stage('Deploy MTAR') {
+            steps {
+                    bat 'cf deploy mta_archives\\CAPBookshopApp_1.0.0.mtar'
+                    }
+                }
+
+        stage('CF Login') {
+            steps {
+                     bat 'cf login -a https://api.cf.eu10-005.hana.ondemand.com -u <user> -p <password>'
+                 }
+                }
     }
 }
