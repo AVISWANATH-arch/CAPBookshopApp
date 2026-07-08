@@ -73,7 +73,7 @@ stage('Debug CF') {
 
         stage('Deploy MTAR') {
             steps {
-                    bat 'cf deploy mta_archives\\bookshop_1.0.0.mtar'
+                    bat 'cf deploy mta_archives\\bookshop_1.0.0.mtar -f'
                     }
                 }
 
