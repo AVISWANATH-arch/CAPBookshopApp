@@ -3,6 +3,12 @@ pipeline {
 
     stages {
 
+        stage('Check MBT') {
+            steps {
+                bat 'mbt --version'
+            }
+        }
+
         stage('Install Dependencies') {
             steps {
                 bat 'npm install'
