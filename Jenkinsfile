@@ -64,6 +64,13 @@ environment {
                     bat 'cf target -o org-build-igen43-lab-inhouse-jv4r8a7p -s bookshop-dev'
                     }
              }
+stage('Debug CF') {
+    steps {
+        bat 'whoami'
+        bat 'cf plugins'
+    }
+}
+
         stage('Deploy MTAR') {
             steps {
                     bat 'cf deploy mta_archives\\CAPBookshopApp_1.0.0.mtar'
