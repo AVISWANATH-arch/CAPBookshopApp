@@ -14,5 +14,21 @@ pipeline {
                 bat 'mbt build'
             }
         }
+
+        stage('Terraform Init') {
+            steps {
+                dir('terraform') {
+                    bat 'terraform init'
+                }
+            }
+        }
+
+        stage('Terraform Plan') {
+            steps {
+                dir('terraform') {
+                    bat 'terraform plan'
+                }
+            }
+        }
     }
 }
