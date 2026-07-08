@@ -70,10 +70,6 @@ environment {
                     }
                 }
 
-        stage('CF Login') {
-            steps {
-                     bat 'cf login -a https://api.cf.eu10-005.hana.ondemand.com -u <user> -p <password>'
-                 }
-                }
+       
     }
 }
