@@ -6,6 +6,13 @@
 "db": {
 "kind": "sqlite"
 }
+},
+"[production]": {
+"requires": {
+"db": {
+"kind": "sqlite"
+}
+}
 }
 },
   "dependencies": {
