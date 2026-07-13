@@ -1,6 +1,13 @@
 {
   "name": "bookshop",
   "version": "1.0.0",
+  "cds": {
+"requires": {
+"db": {
+"kind": "sqlite"
+}
+}
+},
   "dependencies": {
     "@sap/cds": "^9",
      "@sap/xssec": "^4",
