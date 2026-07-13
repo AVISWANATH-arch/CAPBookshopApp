@@ -26,11 +26,12 @@
     "@sap/cds-dk": "^9"
   },
   "scripts": {
-   "start": "cds deploy --to sqlite:db.sqlite && node node_modules/@sap/cds/bin/serve.js"
+   "start": "node node_modules/@sap/cds/bin/deploy.js --to sqlite:db.sqlite && node node_modules/@sap/cds/bin/serve.js"
+   
   },
 
  "engines": {
-  "node": ">=20"
+  "node": "20.x"
 },
 
   "private": true
