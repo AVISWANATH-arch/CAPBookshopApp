@@ -4,7 +4,6 @@ service CatalogService {
   entity Books as projection on db.Books;
 }
 
-annotate CatalogService.Books with @odata.draft.enabled;
 
 annotate CatalogService.Books with @UI.HeaderInfo : {
   TypeName : 'Book',

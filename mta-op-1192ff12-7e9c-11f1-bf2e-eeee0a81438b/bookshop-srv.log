@@ -1,0 +1,526 @@
+#2026 07 13 09:20:49.638#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-7444#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:21.944942] Updated app with guid fc436ba4-41ea-422c-8001-2a81e175edfd ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 07 13 09:20:49.638#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-7444#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:22.039267] Updating process: "web" (STDOUT, API)#
+#2026 07 13 09:20:49.638#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-7444#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:29.781612] Uploading app package for app with guid fc436ba4-41ea-422c-8001-2a81e175edfd (STDOUT, API)#
+#2026 07 13 09:20:49.638#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-7444#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:29.986329] Updated app with guid fc436ba4-41ea-422c-8001-2a81e175edfd ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 07 13 09:20:49.638#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-7444#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:39.864323] Creating build for app with guid fc436ba4-41ea-422c-8001-2a81e175edfd (STDOUT, API)#
+#2026 07 13 09:20:49.638#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-7444#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:40.274006] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 07 13 09:20:49.638#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-7444#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:40.315346] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 07 13 09:20:49.638#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-7444#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:40.315412] Cell d0239dbd-1329-43c8-b029-87c11907ba0f creating container for instance 7ed06314-c4d7-4db4-86e3-b78a75b0c7ec (STDOUT, STG)#
+#2026 07 13 09:20:49.638#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-7444#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:40.911168] Security group rules were updated (STDOUT, STG)#
+#2026 07 13 09:20:49.638#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-7444#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:40.987175] Cell d0239dbd-1329-43c8-b029-87c11907ba0f successfully created container for instance 7ed06314-c4d7-4db4-86e3-b78a75b0c7ec (STDOUT, STG)#
+#2026 07 13 09:20:49.638#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-7444#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:41.355486] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 07 13 09:20:49.638#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-7444#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:41.355487] Downloading app package... (STDOUT, STG)#
+#2026 07 13 09:20:49.638#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-7444#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:41.425417] Downloaded build artifacts cache (215B) (STDOUT, STG)#
+#2026 07 13 09:20:49.638#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-7444#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:42.176999] Downloaded app package (12.9M) (STDOUT, STG)#
+#2026 07 13 09:20:49.638#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-7444#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:42.247206] -----> Nodejs Buildpack version 1.9.2 (STDOUT, STG)#
+#2026 07 13 09:20:49.638#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-7444#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:42.470982] -----> Bootstrapping python (STDOUT, STG)#
+#2026 07 13 09:20:49.638#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-7444#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:42.471017] -----> Installing python 3.13.13 (STDOUT, STG)#
+#2026 07 13 09:20:49.638#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-7444#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:42.471079] Copy [/tmp/buildpacks/171ddc55b4449ae9/dependencies/268a5e3743d51a14b86ea9da64439307/python_3.13.13_linux_x64_cflinuxfs4_8311abbf.tgz] (STDOUT, STG)#
+#2026 07 13 09:20:49.638#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-7444#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:45.604703] -----> Installing binaries (STDOUT, STG)#
+#2026 07 13 09:20:49.638#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-7444#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:45.604737] engines.node (package.json): 20.x (STDOUT, STG)#
+#2026 07 13 09:20:49.638#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-7444#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:45.604741] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 07 13 09:20:49.638#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-7444#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:45.604829] [31;1m**ERROR**[0m Unable to install node: no match found for 20.x in [22.22.2 24.14.0 24.15.0] (STDOUT, STG)#
+#2026 07 13 09:20:49.638#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-7444#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:45.607921] Failed to compile droplet: Failed to run all supply scripts: exit status 14 (STDERR, STG)#
+#2026 07 13 09:20:49.638#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-7444#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:45.614533] Failed to read buildpack config.yml for buildpack key 11fe2c70-a318-414a-8386-414ce52f9f18_ba81df85f52dda2c02a3db159f7418b08d6d8121d209f588b8467cd5abcfed3f: open /tmp/contents2896039885/deps/0/config.yml: no such file or directoryExit status 223 (STDOUT, STG)#
+#2026 07 13 09:20:49.638#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-7444#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:46.326490] Cell d0239dbd-1329-43c8-b029-87c11907ba0f stopping instance 7ed06314-c4d7-4db4-86e3-b78a75b0c7ec (STDOUT, STG)#
+#2026 07 13 09:20:49.638#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-7444#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:46.326521] Cell d0239dbd-1329-43c8-b029-87c11907ba0f destroying container for instance 7ed06314-c4d7-4db4-86e3-b78a75b0c7ec (STDOUT, STG)#
+#2026 07 13 09:20:49.638#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-7444#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:46.372169] Staging failed for build 7ed06314-c4d7-4db4-86e3-b78a75b0c7ec (STDOUT, API)#
+#2026 07 13 09:20:49.638#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-7444#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:46.384660] Failed to stage build: staging failed (STDERR, API)#
+#2026 07 13 09:20:49.638#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-7444#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:48.570512] Cell d0239dbd-1329-43c8-b029-87c11907ba0f successfully destroyed container for instance 7ed06314-c4d7-4db4-86e3-b78a75b0c7ec (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:21.944942] Updated app with guid fc436ba4-41ea-422c-8001-2a81e175edfd ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:22.039267] Updating process: "web" (STDOUT, API)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:29.781612] Uploading app package for app with guid fc436ba4-41ea-422c-8001-2a81e175edfd (STDOUT, API)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:29.986329] Updated app with guid fc436ba4-41ea-422c-8001-2a81e175edfd ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:39.864323] Creating build for app with guid fc436ba4-41ea-422c-8001-2a81e175edfd (STDOUT, API)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:40.274006] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:40.315346] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:40.315412] Cell d0239dbd-1329-43c8-b029-87c11907ba0f creating container for instance 7ed06314-c4d7-4db4-86e3-b78a75b0c7ec (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:40.911168] Security group rules were updated (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:40.987175] Cell d0239dbd-1329-43c8-b029-87c11907ba0f successfully created container for instance 7ed06314-c4d7-4db4-86e3-b78a75b0c7ec (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:41.355486] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:41.355487] Downloading app package... (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:41.425417] Downloaded build artifacts cache (215B) (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:42.176999] Downloaded app package (12.9M) (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:42.247206] -----> Nodejs Buildpack version 1.9.2 (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:42.470982] -----> Bootstrapping python (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:42.471017] -----> Installing python 3.13.13 (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:42.471079] Copy [/tmp/buildpacks/171ddc55b4449ae9/dependencies/268a5e3743d51a14b86ea9da64439307/python_3.13.13_linux_x64_cflinuxfs4_8311abbf.tgz] (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:45.604703] -----> Installing binaries (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:45.604737] engines.node (package.json): 20.x (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:45.604741] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:45.604829] [31;1m**ERROR**[0m Unable to install node: no match found for 20.x in [22.22.2 24.14.0 24.15.0] (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:45.607921] Failed to compile droplet: Failed to run all supply scripts: exit status 14 (STDERR, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:45.614533] Failed to read buildpack config.yml for buildpack key 11fe2c70-a318-414a-8386-414ce52f9f18_ba81df85f52dda2c02a3db159f7418b08d6d8121d209f588b8467cd5abcfed3f: open /tmp/contents2896039885/deps/0/config.yml: no such file or directoryExit status 223 (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:46.326490] Cell d0239dbd-1329-43c8-b029-87c11907ba0f stopping instance 7ed06314-c4d7-4db4-86e3-b78a75b0c7ec (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:46.326521] Cell d0239dbd-1329-43c8-b029-87c11907ba0f destroying container for instance 7ed06314-c4d7-4db4-86e3-b78a75b0c7ec (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:46.372169] Staging failed for build 7ed06314-c4d7-4db4-86e3-b78a75b0c7ec (STDOUT, API)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:46.384660] Failed to stage build: staging failed (STDERR, API)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:48.570512] Cell d0239dbd-1329-43c8-b029-87c11907ba0f successfully destroyed container for instance 7ed06314-c4d7-4db4-86e3-b78a75b0c7ec (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:52.853854] Creating build for app with guid fc436ba4-41ea-422c-8001-2a81e175edfd (STDOUT, API)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:53.390405] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:53.431300] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:53.431385] Cell bc24d1a7-6eb2-4fb3-a2ff-d903bf7dd984 creating container for instance 23c41802-d7d0-43b9-908e-92782e1a7224 (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:54.093594] Security group rules were updated (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:54.172342] Cell bc24d1a7-6eb2-4fb3-a2ff-d903bf7dd984 successfully created container for instance 23c41802-d7d0-43b9-908e-92782e1a7224 (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:54.643401] Downloading app package... (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:54.643453] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:54.697107] Downloaded build artifacts cache (215B) (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:55.337883] Downloaded app package (12.9M) (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:55.411109] -----> Nodejs Buildpack version 1.9.2 (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:55.644981] -----> Bootstrapping python (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:55.644999] -----> Installing python 3.13.13 (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:55.645081] Copy [/tmp/buildpacks/171ddc55b4449ae9/dependencies/268a5e3743d51a14b86ea9da64439307/python_3.13.13_linux_x64_cflinuxfs4_8311abbf.tgz] (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:58.853034] -----> Installing binaries (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:58.853143] engines.node (package.json): 20.x (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:58.853174] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:58.853204] [31;1m**ERROR**[0m Unable to install node: no match found for 20.x in [22.22.2 24.14.0 24.15.0] (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:58.856219] Failed to compile droplet: Failed to run all supply scripts: exit status 14 (STDERR, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:58.862950] Failed to read buildpack config.yml for buildpack key 11fe2c70-a318-414a-8386-414ce52f9f18_ba81df85f52dda2c02a3db159f7418b08d6d8121d209f588b8467cd5abcfed3f: open /tmp/contents3043605764/deps/0/config.yml: no such file or directoryExit status 223 (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:59.237623] Cell bc24d1a7-6eb2-4fb3-a2ff-d903bf7dd984 stopping instance 23c41802-d7d0-43b9-908e-92782e1a7224 (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:59.237655] Cell bc24d1a7-6eb2-4fb3-a2ff-d903bf7dd984 destroying container for instance 23c41802-d7d0-43b9-908e-92782e1a7224 (STDOUT, STG)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:59.280960] Staging failed for build 23c41802-d7d0-43b9-908e-92782e1a7224 (STDOUT, API)#
+#2026 07 13 09:20:59.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16002#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:59.293450] Failed to stage build: staging failed (STDERR, API)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:21.944942] Updated app with guid fc436ba4-41ea-422c-8001-2a81e175edfd ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:22.039267] Updating process: "web" (STDOUT, API)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:29.781612] Uploading app package for app with guid fc436ba4-41ea-422c-8001-2a81e175edfd (STDOUT, API)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:29.986329] Updated app with guid fc436ba4-41ea-422c-8001-2a81e175edfd ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:39.864323] Creating build for app with guid fc436ba4-41ea-422c-8001-2a81e175edfd (STDOUT, API)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:40.274006] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:40.315346] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:40.315412] Cell d0239dbd-1329-43c8-b029-87c11907ba0f creating container for instance 7ed06314-c4d7-4db4-86e3-b78a75b0c7ec (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:40.911168] Security group rules were updated (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:40.987175] Cell d0239dbd-1329-43c8-b029-87c11907ba0f successfully created container for instance 7ed06314-c4d7-4db4-86e3-b78a75b0c7ec (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:41.355486] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:41.355487] Downloading app package... (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:41.425417] Downloaded build artifacts cache (215B) (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:42.176999] Downloaded app package (12.9M) (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:42.247206] -----> Nodejs Buildpack version 1.9.2 (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:42.470982] -----> Bootstrapping python (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:42.471017] -----> Installing python 3.13.13 (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:42.471079] Copy [/tmp/buildpacks/171ddc55b4449ae9/dependencies/268a5e3743d51a14b86ea9da64439307/python_3.13.13_linux_x64_cflinuxfs4_8311abbf.tgz] (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:45.604703] -----> Installing binaries (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:45.604737] engines.node (package.json): 20.x (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:45.604741] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:45.604829] [31;1m**ERROR**[0m Unable to install node: no match found for 20.x in [22.22.2 24.14.0 24.15.0] (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:45.607921] Failed to compile droplet: Failed to run all supply scripts: exit status 14 (STDERR, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:45.614533] Failed to read buildpack config.yml for buildpack key 11fe2c70-a318-414a-8386-414ce52f9f18_ba81df85f52dda2c02a3db159f7418b08d6d8121d209f588b8467cd5abcfed3f: open /tmp/contents2896039885/deps/0/config.yml: no such file or directoryExit status 223 (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:46.326490] Cell d0239dbd-1329-43c8-b029-87c11907ba0f stopping instance 7ed06314-c4d7-4db4-86e3-b78a75b0c7ec (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:46.326521] Cell d0239dbd-1329-43c8-b029-87c11907ba0f destroying container for instance 7ed06314-c4d7-4db4-86e3-b78a75b0c7ec (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:46.372169] Staging failed for build 7ed06314-c4d7-4db4-86e3-b78a75b0c7ec (STDOUT, API)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:46.384660] Failed to stage build: staging failed (STDERR, API)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:48.570512] Cell d0239dbd-1329-43c8-b029-87c11907ba0f successfully destroyed container for instance 7ed06314-c4d7-4db4-86e3-b78a75b0c7ec (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:52.853854] Creating build for app with guid fc436ba4-41ea-422c-8001-2a81e175edfd (STDOUT, API)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:53.390405] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:53.431300] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:53.431385] Cell bc24d1a7-6eb2-4fb3-a2ff-d903bf7dd984 creating container for instance 23c41802-d7d0-43b9-908e-92782e1a7224 (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:54.093594] Security group rules were updated (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:54.172342] Cell bc24d1a7-6eb2-4fb3-a2ff-d903bf7dd984 successfully created container for instance 23c41802-d7d0-43b9-908e-92782e1a7224 (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:54.643401] Downloading app package... (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:54.643453] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:54.697107] Downloaded build artifacts cache (215B) (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:55.337883] Downloaded app package (12.9M) (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:55.411109] -----> Nodejs Buildpack version 1.9.2 (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:55.644981] -----> Bootstrapping python (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:55.644999] -----> Installing python 3.13.13 (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:55.645081] Copy [/tmp/buildpacks/171ddc55b4449ae9/dependencies/268a5e3743d51a14b86ea9da64439307/python_3.13.13_linux_x64_cflinuxfs4_8311abbf.tgz] (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:58.853034] -----> Installing binaries (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:58.853143] engines.node (package.json): 20.x (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:58.853174] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:58.853204] [31;1m**ERROR**[0m Unable to install node: no match found for 20.x in [22.22.2 24.14.0 24.15.0] (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:58.856219] Failed to compile droplet: Failed to run all supply scripts: exit status 14 (STDERR, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:58.862950] Failed to read buildpack config.yml for buildpack key 11fe2c70-a318-414a-8386-414ce52f9f18_ba81df85f52dda2c02a3db159f7418b08d6d8121d209f588b8467cd5abcfed3f: open /tmp/contents3043605764/deps/0/config.yml: no such file or directoryExit status 223 (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:59.237623] Cell bc24d1a7-6eb2-4fb3-a2ff-d903bf7dd984 stopping instance 23c41802-d7d0-43b9-908e-92782e1a7224 (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:59.237655] Cell bc24d1a7-6eb2-4fb3-a2ff-d903bf7dd984 destroying container for instance 23c41802-d7d0-43b9-908e-92782e1a7224 (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:59.280960] Staging failed for build 23c41802-d7d0-43b9-908e-92782e1a7224 (STDOUT, API)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:59.293450] Failed to stage build: staging failed (STDERR, API)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:01.506415] Cell bc24d1a7-6eb2-4fb3-a2ff-d903bf7dd984 successfully destroyed container for instance 23c41802-d7d0-43b9-908e-92782e1a7224 (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:02.870551] Creating build for app with guid fc436ba4-41ea-422c-8001-2a81e175edfd (STDOUT, API)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:03.287685] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:03.327494] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:03.327599] Cell 675ccb1e-d62a-4027-abdb-8a9be5d4cb96 creating container for instance 9fbd65a3-9038-413a-9770-5556d42d2674 (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:03.957431] Security group rules were updated (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:04.050954] Cell 675ccb1e-d62a-4027-abdb-8a9be5d4cb96 successfully created container for instance 9fbd65a3-9038-413a-9770-5556d42d2674 (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:04.442510] Downloading app package... (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:04.442528] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:04.496939] Downloaded build artifacts cache (215B) (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:05.122970] Downloaded app package (12.9M) (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:05.195830] -----> Nodejs Buildpack version 1.9.2 (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:05.414946] -----> Bootstrapping python (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:05.414967] -----> Installing python 3.13.13 (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:05.415025] Copy [/tmp/buildpacks/171ddc55b4449ae9/dependencies/268a5e3743d51a14b86ea9da64439307/python_3.13.13_linux_x64_cflinuxfs4_8311abbf.tgz] (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:08.531325] -----> Installing binaries (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:08.531366] engines.node (package.json): 20.x (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:08.531370] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:08.531487] [31;1m**ERROR**[0m Unable to install node: no match found for 20.x in [22.22.2 24.14.0 24.15.0] (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:08.534303] Failed to compile droplet: Failed to run all supply scripts: exit status 14 (STDERR, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:08.541639] Failed to read buildpack config.yml for buildpack key 11fe2c70-a318-414a-8386-414ce52f9f18_ba81df85f52dda2c02a3db159f7418b08d6d8121d209f588b8467cd5abcfed3f: open /tmp/contents3584911759/deps/0/config.yml: no such file or directoryExit status 223 (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:09.211910] Cell 675ccb1e-d62a-4027-abdb-8a9be5d4cb96 stopping instance 9fbd65a3-9038-413a-9770-5556d42d2674 (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:09.211946] Cell 675ccb1e-d62a-4027-abdb-8a9be5d4cb96 destroying container for instance 9fbd65a3-9038-413a-9770-5556d42d2674 (STDOUT, STG)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:09.253417] Staging failed for build 9fbd65a3-9038-413a-9770-5556d42d2674 (STDOUT, API)#
+#2026 07 13 09:21:09.775#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16006#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:09.266867] Failed to stage build: staging failed (STDERR, API)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:21.944942] Updated app with guid fc436ba4-41ea-422c-8001-2a81e175edfd ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:22.039267] Updating process: "web" (STDOUT, API)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:29.781612] Uploading app package for app with guid fc436ba4-41ea-422c-8001-2a81e175edfd (STDOUT, API)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:29.986329] Updated app with guid fc436ba4-41ea-422c-8001-2a81e175edfd ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:39.864323] Creating build for app with guid fc436ba4-41ea-422c-8001-2a81e175edfd (STDOUT, API)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:40.274006] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:40.315346] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:40.315412] Cell d0239dbd-1329-43c8-b029-87c11907ba0f creating container for instance 7ed06314-c4d7-4db4-86e3-b78a75b0c7ec (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:40.911168] Security group rules were updated (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:40.987175] Cell d0239dbd-1329-43c8-b029-87c11907ba0f successfully created container for instance 7ed06314-c4d7-4db4-86e3-b78a75b0c7ec (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:41.355486] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:41.355487] Downloading app package... (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:41.425417] Downloaded build artifacts cache (215B) (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:42.176999] Downloaded app package (12.9M) (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:42.247206] -----> Nodejs Buildpack version 1.9.2 (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:42.470982] -----> Bootstrapping python (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:42.471017] -----> Installing python 3.13.13 (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:42.471079] Copy [/tmp/buildpacks/171ddc55b4449ae9/dependencies/268a5e3743d51a14b86ea9da64439307/python_3.13.13_linux_x64_cflinuxfs4_8311abbf.tgz] (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:45.604703] -----> Installing binaries (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:45.604737] engines.node (package.json): 20.x (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:45.604741] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:45.604829] [31;1m**ERROR**[0m Unable to install node: no match found for 20.x in [22.22.2 24.14.0 24.15.0] (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:45.607921] Failed to compile droplet: Failed to run all supply scripts: exit status 14 (STDERR, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:45.614533] Failed to read buildpack config.yml for buildpack key 11fe2c70-a318-414a-8386-414ce52f9f18_ba81df85f52dda2c02a3db159f7418b08d6d8121d209f588b8467cd5abcfed3f: open /tmp/contents2896039885/deps/0/config.yml: no such file or directoryExit status 223 (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:46.326490] Cell d0239dbd-1329-43c8-b029-87c11907ba0f stopping instance 7ed06314-c4d7-4db4-86e3-b78a75b0c7ec (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:46.326521] Cell d0239dbd-1329-43c8-b029-87c11907ba0f destroying container for instance 7ed06314-c4d7-4db4-86e3-b78a75b0c7ec (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:46.372169] Staging failed for build 7ed06314-c4d7-4db4-86e3-b78a75b0c7ec (STDOUT, API)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:46.384660] Failed to stage build: staging failed (STDERR, API)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:48.570512] Cell d0239dbd-1329-43c8-b029-87c11907ba0f successfully destroyed container for instance 7ed06314-c4d7-4db4-86e3-b78a75b0c7ec (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:52.853854] Creating build for app with guid fc436ba4-41ea-422c-8001-2a81e175edfd (STDOUT, API)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:53.390405] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:53.431300] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:53.431385] Cell bc24d1a7-6eb2-4fb3-a2ff-d903bf7dd984 creating container for instance 23c41802-d7d0-43b9-908e-92782e1a7224 (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:54.093594] Security group rules were updated (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:54.172342] Cell bc24d1a7-6eb2-4fb3-a2ff-d903bf7dd984 successfully created container for instance 23c41802-d7d0-43b9-908e-92782e1a7224 (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:54.643401] Downloading app package... (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:54.643453] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:54.697107] Downloaded build artifacts cache (215B) (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:55.337883] Downloaded app package (12.9M) (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:55.411109] -----> Nodejs Buildpack version 1.9.2 (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:55.644981] -----> Bootstrapping python (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:55.644999] -----> Installing python 3.13.13 (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:55.645081] Copy [/tmp/buildpacks/171ddc55b4449ae9/dependencies/268a5e3743d51a14b86ea9da64439307/python_3.13.13_linux_x64_cflinuxfs4_8311abbf.tgz] (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:58.853034] -----> Installing binaries (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:58.853143] engines.node (package.json): 20.x (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:58.853174] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:58.853204] [31;1m**ERROR**[0m Unable to install node: no match found for 20.x in [22.22.2 24.14.0 24.15.0] (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:58.856219] Failed to compile droplet: Failed to run all supply scripts: exit status 14 (STDERR, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:58.862950] Failed to read buildpack config.yml for buildpack key 11fe2c70-a318-414a-8386-414ce52f9f18_ba81df85f52dda2c02a3db159f7418b08d6d8121d209f588b8467cd5abcfed3f: open /tmp/contents3043605764/deps/0/config.yml: no such file or directoryExit status 223 (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:59.237623] Cell bc24d1a7-6eb2-4fb3-a2ff-d903bf7dd984 stopping instance 23c41802-d7d0-43b9-908e-92782e1a7224 (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:59.237655] Cell bc24d1a7-6eb2-4fb3-a2ff-d903bf7dd984 destroying container for instance 23c41802-d7d0-43b9-908e-92782e1a7224 (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:59.280960] Staging failed for build 23c41802-d7d0-43b9-908e-92782e1a7224 (STDOUT, API)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:20:59.293450] Failed to stage build: staging failed (STDERR, API)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:01.506415] Cell bc24d1a7-6eb2-4fb3-a2ff-d903bf7dd984 successfully destroyed container for instance 23c41802-d7d0-43b9-908e-92782e1a7224 (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:02.870551] Creating build for app with guid fc436ba4-41ea-422c-8001-2a81e175edfd (STDOUT, API)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:03.287685] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:03.327494] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:03.327599] Cell 675ccb1e-d62a-4027-abdb-8a9be5d4cb96 creating container for instance 9fbd65a3-9038-413a-9770-5556d42d2674 (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:03.957431] Security group rules were updated (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:04.050954] Cell 675ccb1e-d62a-4027-abdb-8a9be5d4cb96 successfully created container for instance 9fbd65a3-9038-413a-9770-5556d42d2674 (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:04.442510] Downloading app package... (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:04.442528] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:04.496939] Downloaded build artifacts cache (215B) (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:05.122970] Downloaded app package (12.9M) (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:05.195830] -----> Nodejs Buildpack version 1.9.2 (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:05.414946] -----> Bootstrapping python (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:05.414967] -----> Installing python 3.13.13 (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:05.415025] Copy [/tmp/buildpacks/171ddc55b4449ae9/dependencies/268a5e3743d51a14b86ea9da64439307/python_3.13.13_linux_x64_cflinuxfs4_8311abbf.tgz] (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:08.531325] -----> Installing binaries (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:08.531366] engines.node (package.json): 20.x (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:08.531370] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:08.531487] [31;1m**ERROR**[0m Unable to install node: no match found for 20.x in [22.22.2 24.14.0 24.15.0] (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:08.534303] Failed to compile droplet: Failed to run all supply scripts: exit status 14 (STDERR, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:08.541639] Failed to read buildpack config.yml for buildpack key 11fe2c70-a318-414a-8386-414ce52f9f18_ba81df85f52dda2c02a3db159f7418b08d6d8121d209f588b8467cd5abcfed3f: open /tmp/contents3584911759/deps/0/config.yml: no such file or directoryExit status 223 (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:09.211910] Cell 675ccb1e-d62a-4027-abdb-8a9be5d4cb96 stopping instance 9fbd65a3-9038-413a-9770-5556d42d2674 (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:09.211946] Cell 675ccb1e-d62a-4027-abdb-8a9be5d4cb96 destroying container for instance 9fbd65a3-9038-413a-9770-5556d42d2674 (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:09.253417] Staging failed for build 9fbd65a3-9038-413a-9770-5556d42d2674 (STDOUT, API)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:09.266867] Failed to stage build: staging failed (STDERR, API)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:12.645411] Cell 675ccb1e-d62a-4027-abdb-8a9be5d4cb96 successfully destroyed container for instance 9fbd65a3-9038-413a-9770-5556d42d2674 (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:12.962187] Creating build for app with guid fc436ba4-41ea-422c-8001-2a81e175edfd (STDOUT, API)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:13.405191] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:13.438483] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:13.438559] Cell 675ccb1e-d62a-4027-abdb-8a9be5d4cb96 creating container for instance c29d9981-31b6-4fcc-99d1-106dbc785012 (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:14.062872] Security group rules were updated (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:14.144011] Cell 675ccb1e-d62a-4027-abdb-8a9be5d4cb96 successfully created container for instance c29d9981-31b6-4fcc-99d1-106dbc785012 (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:14.452099] Downloading app package... (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:14.452143] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:14.516900] Downloaded build artifacts cache (215B) (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:15.144022] Downloaded app package (12.9M) (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:15.226977] -----> Nodejs Buildpack version 1.9.2 (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:15.458719] -----> Bootstrapping python (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:15.458739] -----> Installing python 3.13.13 (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:15.458764] Copy [/tmp/buildpacks/171ddc55b4449ae9/dependencies/268a5e3743d51a14b86ea9da64439307/python_3.13.13_linux_x64_cflinuxfs4_8311abbf.tgz] (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:18.558712] -----> Installing binaries (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:18.558772] engines.node (package.json): 20.x (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:18.558785] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:18.558858] [31;1m**ERROR**[0m Unable to install node: no match found for 20.x in [22.22.2 24.14.0 24.15.0] (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:18.562155] Failed to compile droplet: Failed to run all supply scripts: exit status 14 (STDERR, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:18.569454] Failed to read buildpack config.yml for buildpack key 11fe2c70-a318-414a-8386-414ce52f9f18_ba81df85f52dda2c02a3db159f7418b08d6d8121d209f588b8467cd5abcfed3f: open /tmp/contents716706066/deps/0/config.yml: no such file or directoryExit status 223 (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:18.835818] Cell 675ccb1e-d62a-4027-abdb-8a9be5d4cb96 stopping instance c29d9981-31b6-4fcc-99d1-106dbc785012 (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:18.835852] Cell 675ccb1e-d62a-4027-abdb-8a9be5d4cb96 destroying container for instance c29d9981-31b6-4fcc-99d1-106dbc785012 (STDOUT, STG)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:18.885227] Staging failed for build c29d9981-31b6-4fcc-99d1-106dbc785012 (STDOUT, API)#
+#2026 07 13 09:21:19.867#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.bookshop-srv#flowable-async-job-executor-thread-16016#
+[PollStageAppStatusExecution] fc436ba4-41ea-422c-8001-2a81e175edfd [2026-07-13T09:21:18.897736] Failed to stage build: staging failed (STDERR, API)#

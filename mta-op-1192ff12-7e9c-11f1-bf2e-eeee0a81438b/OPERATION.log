@@ -1,0 +1,1006 @@
+#2026 07 13 09:20:20.005#Z#INFO#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#http-nio-0.0.0.0-8080-exec-32#
+[XS2StartProcessListener] Operation ID: 1192ff12-7e9c-11f1-bf2e-eeee0a81438b#
+#2026 07 13 09:20:20.034#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#http-nio-0.0.0.0-8080-exec-32#
+[XS2StartProcessListener] Process environment: {
+  "SKIP_SSL_VALIDATION" : "false",
+  "FLOWABLE_JOB_EXECUTOR_MAX_THREADS" : "32",
+  "VERSION" : "2.49.1",
+  "BASIC_AUTH_ENABLED" : "true",
+  "FLOWABLE_JOB_EXECUTOR_QUEUE_CAPACITY" : "16",
+  "FLOWABLE_JOB_EXECUTOR_CORE_THREADS" : "8"
+}#
+#2026 07 13 09:20:20.034#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#http-nio-0.0.0.0-8080-exec-32#
+[XS2StartProcessListener] Current user: archana.vishwanath@igen43.com#
+#2026 07 13 09:20:20.034#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#http-nio-0.0.0.0-8080-exec-32#
+[XS2StartProcessListener] Client space: bookshop-dev#
+#2026 07 13 09:20:20.034#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#http-nio-0.0.0.0-8080-exec-32#
+[XS2StartProcessListener] Client organization: org-build-igen43-lab-inhouse-jv4r8a7p#
+#2026 07 13 09:20:20.034#Z#INFO#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#http-nio-0.0.0.0-8080-exec-32#
+[XS2StartProcessListener] Process variables: {
+  "keepFiles" : false,
+  "skipAppDigestCalculation" : false,
+  "abortOnError" : false,
+  "mtaId" : "bookshop",
+  "noFailOnMissingPermissions" : false,
+  "isSecurityEnabled" : false,
+  "apiRequestPath" : "https://deploy-service.cf.eu10-005.hana.ondemand.com/api/v1/spaces/b9af1975-cf68-4045-88e6-501ed15d25dd/operations",
+  "deleteServiceBrokers" : false,
+  "appArchiveId" : "1d75303b-e107-4ff0-920c-115dc902abae",
+  "isDisposableUserProvidedServiceEnabled" : false,
+  "deleteServiceKeys" : false,
+  "noRestartSubscribedApps" : false,
+  "noStart" : false,
+  "deleteServices" : false
+}#
+#2026 07 13 09:20:20.093#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7430#
+[ValidateDeployParametersStep] Executing task "validateParametersTask" of process "11932648-7e9c-11f1-bf2e-eeee0a81438b"...#
+#2026 07 13 09:20:20.093#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7430#
+[ValidateDeployParametersStep] Validating parameters...#
+#2026 07 13 09:20:20.097#Z#INFO#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7430#
+[ValidateDeployParametersStep] Size of mtars is 13,183,561 and size of extension descriptors is 0#
+#2026 07 13 09:20:20.133#Z#INFO#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7430#
+[ValidateDeployParametersStep] Archive was not split! Total size in bytes: 13,183,561#
+#2026 07 13 09:20:20.133#Z#INFO#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7430#
+[ValidateDeployParametersStep] Deploying in org "org-build-igen43-lab-inhouse-jv4r8a7p" and space "bookshop-dev"#
+#2026 07 13 09:20:20.141#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7430#
+[ValidateDeployParametersStep] Parameters validated#
+#2026 07 13 09:20:20.141#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7430#
+Step "Validate Parameters" finished#
+#2026 07 13 09:20:20.184#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7419#
+[DeleteRemainingFileParts] Executing task "deleteRemainingFileParts" of process "11932648-7e9c-11f1-bf2e-eeee0a81438b"...#
+#2026 07 13 09:20:20.186#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7419#
+Step "Delete Remaining File Parts" finished#
+#2026 07 13 09:20:20.241#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2ProcessMtaArchiveStep] Executing task "processArchiveTask" of process "11932648-7e9c-11f1-bf2e-eeee0a81438b"...#
+#2026 07 13 09:20:20.243#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2ProcessMtaArchiveStep] Processing MTA archive...#
+#2026 07 13 09:20:20.243#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2ProcessMtaArchiveStep] MTA Archive ID: 1d75303b-e107-4ff0-920c-115dc902abae#
+#2026 07 13 09:20:20.436#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2ProcessMtaArchiveStep] MTA Descriptor length: 462#
+#2026 07 13 09:20:20.436#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2ProcessMtaArchiveStep] MTA Archive Modules: [bookshop-srv]#
+#2026 07 13 09:20:20.436#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2ProcessMtaArchiveStep] MTA Archive Requires: []#
+#2026 07 13 09:20:20.436#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2ProcessMtaArchiveStep] MTA Archive Resources: []#
+#2026 07 13 09:20:20.453#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2ProcessMtaArchiveStep] MTA archive processed#
+#2026 07 13 09:20:20.453#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+Step "Process Archive" finished#
+#2026 07 13 09:20:20.512#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[ProcessMtaExtensionDescriptorsStep] Executing task "processExtensionDescriptorsTask" of process "11932648-7e9c-11f1-bf2e-eeee0a81438b"...#
+#2026 07 13 09:20:20.513#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[ProcessMtaExtensionDescriptorsStep] Processing MTA extension descriptors...#
+#2026 07 13 09:20:20.513#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[ProcessMtaExtensionDescriptorsStep] Provided extension descriptors: [ ]#
+#2026 07 13 09:20:20.513#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[ProcessMtaExtensionDescriptorsStep] No extension descriptors in use#
+#2026 07 13 09:20:20.514#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[ProcessMtaExtensionDescriptorsStep] MTA extension descriptors processed#
+#2026 07 13 09:20:20.514#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+Step "Process Extension Descriptors" finished#
+#2026 07 13 09:20:20.568#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2DetectMtaSchemaVersionStep] Executing task "detectSchemaVersionTask" of process "11932648-7e9c-11f1-bf2e-eeee0a81438b"...#
+#2026 07 13 09:20:20.569#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2DetectMtaSchemaVersionStep] Detecting MTA major schema version...#
+#2026 07 13 09:20:20.572#Z#INFO#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2DetectMtaSchemaVersionStep] Detected MTA schema version: "3"#
+#2026 07 13 09:20:20.579#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+Step "Detect Schema Version" finished#
+#2026 07 13 09:20:20.623#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[MergeDescriptorsStep] Executing task "mergeDescriptorsTask" of process "11932648-7e9c-11f1-bf2e-eeee0a81438b"...#
+#2026 07 13 09:20:20.624#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[MergeDescriptorsStep] Validating and merging descriptors...#
+#2026 07 13 09:20:20.626#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[MergeDescriptorsStep] Merged deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.3.0",
+  "id" : "bookshop",
+  "version" : "1.0.0",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "bookshop-srv",
+    "type" : "javascript.nodejs",
+    "path" : "bookshop-srv",
+    "properties" : { },
+    "parameters" : {
+      "buildpack" : "nodejs_buildpack",
+      "instances" : 1
+    },
+    "requiredDependencies" : [ ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "srv-api",
+      "isPublic" : false,
+      "properties" : {
+        "srv-url" : "${default-url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "bookshop-srv",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ ],
+  "parameters" : {
+    "enable-parallel-deployments" : true
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2026 07 13 09:20:20.628#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[MergeDescriptorsStep] Descriptors validated and merged#
+#2026 07 13 09:20:20.628#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+Step "Merge Descriptors" finished#
+#2026 07 13 09:20:20.677#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[DetectDeployedMtaStep] Executing task "detectDeployedMtaTask" of process "11932648-7e9c-11f1-bf2e-eeee0a81438b"...#
+#2026 07 13 09:20:20.678#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[DetectDeployedMtaStep] Detecting deployed MTA...#
+#2026 07 13 09:20:20.679#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[DetectDeployedMtaStep] Detecting MTA by id bookshop and namespace null#
+#2026 07 13 09:20:20.680#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[DetectDeployedMtaStep] Getting applications by metadata label selector "mta_id=2a4a0bf95d32e1e3699eb55927334851,!mta_namespace"...#
+#2026 07 13 09:20:20.741#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[DetectDeployedMtaStep] Getting service instances by metadata label selector "mta_id=2a4a0bf95d32e1e3699eb55927334851,!mta_namespace"...#
+#2026 07 13 09:20:20.776#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[DetectDeployedMtaStep] Deployed MTA: {
+  "metadata" : {
+    "id" : "bookshop",
+    "version" : "1.0.0"
+  },
+  "applications" : [ {
+    "name" : "bookshop-srv",
+    "metadata" : {
+      "guid" : "fc436ba4-41ea-422c-8001-2a81e175edfd",
+      "createdAt" : [ 2026, 7, 13, 8, 55, 53 ],
+      "updatedAt" : [ 2026, 7, 13, 9, 2, 38 ]
+    },
+    "v3Metadata" : {
+      "annotations" : {
+        "mta_id" : "bookshop",
+        "mta_version" : "1.0.0",
+        "mta_module" : "{\"name\":\"bookshop-srv\"}",
+        "mta_module_provided_dependencies" : "[]",
+        "mta_bound_services" : "[]"
+      },
+      "labels" : {
+        "mta_id" : "2a4a0bf95d32e1e3699eb55927334851"
+      }
+    },
+    "state" : "STOPPED",
+    "lifecycle" : {
+      "type" : "BUILDPACK",
+      "data" : {
+        "stack" : "cflinuxfs4",
+        "buildpacks" : [ "nodejs_buildpack" ]
+      }
+    },
+    "space" : {
+      "name" : "bookshop-dev",
+      "metadata" : {
+        "guid" : "b9af1975-cf68-4045-88e6-501ed15d25dd",
+        "createdAt" : [ 2026, 7, 8, 11, 17, 49 ],
+        "updatedAt" : [ 2026, 7, 8, 11, 17, 49 ]
+      },
+      "organization" : {
+        "name" : "org-build-igen43-lab-inhouse-jv4r8a7p",
+        "metadata" : {
+          "guid" : "940c990c-25b7-469d-bad0-6e76cc03b487",
+          "createdAt" : [ 2026, 5, 28, 14, 13, 3 ],
+          "updatedAt" : [ 2026, 5, 31, 12, 37, 38 ]
+        }
+      }
+    },
+    "moduleName" : "bookshop-srv",
+    "boundMtaServices" : [ ],
+    "providedDependencyNames" : [ ],
+    "productizationState" : "LIVE"
+  } ],
+  "services" : [ ]
+}#
+#2026 07 13 09:20:20.776#Z#INFO#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[DetectDeployedMtaStep] Detected deployed MTA with ID "bookshop" and version "1.0.0"#
+#2026 07 13 09:20:20.784#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[DetectDeployedMtaStep] Detecting backup mta by id "bookshop" and namespace "null"#
+#2026 07 13 09:20:20.784#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[DetectDeployedMtaStep] Getting applications by metadata label selector "mta_id=2a4a0bf95d32e1e3699eb55927334851,mta_namespace=b698114a0995e936895b9598a6c19a2c"...#
+#2026 07 13 09:20:20.820#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[DetectDeployedMtaStep] Getting service instances by metadata label selector "mta_id=2a4a0bf95d32e1e3699eb55927334851,mta_namespace=b698114a0995e936895b9598a6c19a2c"...#
+#2026 07 13 09:20:20.864#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[DetectDeployedMtaStep] Deployed MTA service keys: [ ]#
+#2026 07 13 09:20:20.864#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+Step "Detect Deployed MTA" finished#
+#2026 07 13 09:20:20.918#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2CollectSystemParametersStep] Executing task "collectSystemParametersTask" of process "11932648-7e9c-11f1-bf2e-eeee0a81438b"...#
+#2026 07 13 09:20:20.920#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2CollectSystemParametersStep] Collecting system parameters...#
+#2026 07 13 09:20:20.921#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2CollectSystemParametersStep] Getting default domain...#
+#2026 07 13 09:20:20.952#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2CollectSystemParametersStep] Default domain: cfapps.eu10-005.hana.ondemand.com#
+#2026 07 13 09:20:20.952#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2CollectSystemParametersStep] Checking for overwriting read-only parameters for mta with id: "bookshop"#
+#2026 07 13 09:20:20.952#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2CollectSystemParametersStep] No read-only parameters are overwritten#
+#2026 07 13 09:20:20.967#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2CollectSystemParametersStep] Descriptor with system parameters: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.3.0",
+  "id" : "bookshop",
+  "version" : "1.0.0",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "bookshop-srv",
+    "type" : "javascript.nodejs",
+    "path" : "bookshop-srv",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "bookshop-srv",
+      "generated-password" : "********",
+      "default-live-url" : "${protocol}://${default-live-uri}",
+      "default-uri" : "${host}.${domain}",
+      "default-instances" : 1,
+      "default-live-host" : "org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv",
+      "app-name" : "${default-app-name}",
+      "default-live-uri" : "org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv.${domain}",
+      "protocol" : "https",
+      "default-live-app-name" : "bookshop-srv",
+      "default-live-domain" : "cfapps.eu10-005.hana.ondemand.com",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********"
+    },
+    "requiredDependencies" : [ ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "srv-api",
+      "isPublic" : false,
+      "properties" : {
+        "srv-url" : "${default-url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "bookshop-srv",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ ],
+  "parameters" : {
+    "mta-id" : "bookshop",
+    "authorization-url" : "********",
+    "org-guid" : "940c990c-25b7-469d-bad0-6e76cc03b487",
+    "org" : "org-build-igen43-lab-inhouse-jv4r8a7p",
+    "deploy-target" : "org-build-igen43-lab-inhouse-jv4r8a7p bookshop-dev",
+    "enable-parallel-deployments" : true,
+    "space" : "bookshop-dev",
+    "xs-api-url" : "https://api.cf.eu10-005.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.eu10-005.hana.ondemand.com",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.eu10-005.hana.ondemand.com",
+    "mta-version" : "1.0.0",
+    "xs-auth-url" : "********",
+    "space-guid" : "b9af1975-cf68-4045-88e6-501ed15d25dd",
+    "user" : "********",
+    "controller-url" : "https://api.cf.eu10-005.hana.ondemand.com",
+    "timestamp" : "20260713092020"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2026 07 13 09:20:20.969#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2CollectSystemParametersStep] Version rule: SAME_HIGHER#
+#2026 07 13 09:20:20.969#Z#INFO#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2CollectSystemParametersStep] Detected new MTA version: "1.0.0"#
+#2026 07 13 09:20:20.976#Z#INFO#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2CollectSystemParametersStep] Deployed MTA version: "1.0.0"#
+#2026 07 13 09:20:20.982#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2CollectSystemParametersStep] MTA accepted for deployment#
+#2026 07 13 09:20:20.982#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2CollectSystemParametersStep] System parameters collected#
+#2026 07 13 09:20:20.982#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+Step "Collect System Parameters" finished#
+#2026 07 13 09:20:21.036#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[ProcessDescriptorStep] Executing task "processDescriptorTask" of process "11932648-7e9c-11f1-bf2e-eeee0a81438b"...#
+#2026 07 13 09:20:21.037#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[ProcessDescriptorStep] Resolving properties and parameters in merged descriptor...#
+#2026 07 13 09:20:21.040#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[ProcessDescriptorStep] Subscriptions: [ ]#
+#2026 07 13 09:20:21.040#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[ProcessDescriptorStep] MTA modules: [bookshop-srv]#
+#2026 07 13 09:20:21.041#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[ProcessDescriptorStep] Resolved deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.3.0",
+  "id" : "bookshop",
+  "version" : "1.0.0",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "bookshop-srv",
+    "type" : "javascript.nodejs",
+    "path" : "bookshop-srv",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv.cfapps.eu10-005.hana.ondemand.com",
+      "default-app-name" : "bookshop-srv",
+      "generated-password" : "********",
+      "default-live-url" : "https://org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv.cfapps.eu10-005.hana.ondemand.com",
+      "default-uri" : "org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv.cfapps.eu10-005.hana.ondemand.com",
+      "default-instances" : 1,
+      "default-live-host" : "org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv",
+      "app-name" : "bookshop-srv",
+      "default-live-uri" : "org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv.cfapps.eu10-005.hana.ondemand.com",
+      "protocol" : "https",
+      "default-live-app-name" : "bookshop-srv",
+      "default-live-domain" : "cfapps.eu10-005.hana.ondemand.com",
+      "domain" : "cfapps.eu10-005.hana.ondemand.com",
+      "host" : "org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv",
+      "generated-user" : "********"
+    },
+    "requiredDependencies" : [ ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "srv-api",
+      "isPublic" : false,
+      "properties" : {
+        "srv-url" : "https://org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv.cfapps.eu10-005.hana.ondemand.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "bookshop-srv",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ ],
+  "parameters" : {
+    "mta-id" : "bookshop",
+    "authorization-url" : "********",
+    "org-guid" : "940c990c-25b7-469d-bad0-6e76cc03b487",
+    "org" : "org-build-igen43-lab-inhouse-jv4r8a7p",
+    "deploy-target" : "org-build-igen43-lab-inhouse-jv4r8a7p bookshop-dev",
+    "enable-parallel-deployments" : true,
+    "region-primary-domain" : "eu10.hana.ondemand.com",
+    "space" : "bookshop-dev",
+    "region-domain" : "eu10-005.hana.ondemand.com",
+    "xs-api-url" : "https://api.cf.eu10-005.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.eu10-005.hana.ondemand.com",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.eu10-005.hana.ondemand.com",
+    "mta-version" : "1.0.0",
+    "xs-auth-url" : "********",
+    "space-guid" : "b9af1975-cf68-4045-88e6-501ed15d25dd",
+    "user" : "********",
+    "controller-url" : "https://api.cf.eu10-005.hana.ondemand.com",
+    "timestamp" : "20260713092020"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2026 07 13 09:20:21.041#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[ProcessDescriptorStep] Merged descriptor properties and parameters resolved#
+#2026 07 13 09:20:21.041#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+Step "Process Descriptor Step" finished#
+#2026 07 13 09:20:21.091#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2BuildCloudDeployModelStep] Executing task "buildDeployModelTask" of process "11932648-7e9c-11f1-bf2e-eeee0a81438b"...#
+#2026 07 13 09:20:21.094#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2BuildCloudDeployModelStep] Service keys defined for content deployment grouped by service name: { }#
+#2026 07 13 09:20:21.094#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2BuildCloudDeployModelStep] Building cloud deployment model...#
+#2026 07 13 09:20:21.100#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2BuildCloudDeployModelStep] MTA archive modules: [bookshop-srv]#
+#2026 07 13 09:20:21.100#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2BuildCloudDeployModelStep] Deployed modules: [bookshop-srv]#
+#2026 07 13 09:20:21.103#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2BuildCloudDeployModelStep] MTA modules: [bookshop-srv]#
+#2026 07 13 09:20:21.104#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2BuildCloudDeployModelStep] Service keys to create: { }#
+#2026 07 13 09:20:21.104#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2BuildCloudDeployModelStep] Modules to deploy: [{
+  "majorSchemaVersion" : 3,
+  "name" : "bookshop-srv",
+  "type" : "javascript.nodejs",
+  "path" : "bookshop-srv",
+  "properties" : { },
+  "parameters" : {
+    "default-url" : "https://org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv.cfapps.eu10-005.hana.ondemand.com",
+    "default-app-name" : "bookshop-srv",
+    "generated-password" : "********",
+    "default-live-url" : "https://org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv.cfapps.eu10-005.hana.ondemand.com",
+    "default-uri" : "org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv.cfapps.eu10-005.hana.ondemand.com",
+    "default-instances" : 1,
+    "default-live-host" : "org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv",
+    "instances" : 1,
+    "buildpack" : "nodejs_buildpack",
+    "default-host" : "org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv",
+    "app-name" : "bookshop-srv",
+    "default-live-uri" : "org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv.cfapps.eu10-005.hana.ondemand.com",
+    "protocol" : "https",
+    "default-live-app-name" : "bookshop-srv",
+    "default-live-domain" : "cfapps.eu10-005.hana.ondemand.com",
+    "dependency-type" : "soft",
+    "domain" : "cfapps.eu10-005.hana.ondemand.com",
+    "host" : "org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv",
+    "generated-user" : "********"
+  },
+  "requiredDependencies" : [ ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "srv-api",
+    "isPublic" : false,
+    "properties" : {
+      "srv-url" : "https://org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv.cfapps.eu10-005.hana.ondemand.com"
+    },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "bookshop-srv",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "deployedAfter" : [ ],
+  "hooks" : [ ]
+}]#
+#2026 07 13 09:20:21.104#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2BuildCloudDeployModelStep] Custom domains: []#
+#2026 07 13 09:20:21.107#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2BuildCloudDeployModelStep] Calculating resource batches...#
+#2026 07 13 09:20:21.107#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2BuildCloudDeployModelStep] Calculating resource batches completed.#
+#2026 07 13 09:20:21.107#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[XS2BuildCloudDeployModelStep] Cloud deployment model built#
+#2026 07 13 09:20:21.107#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+Step "Build Deploy Model" finished#
+#2026 07 13 09:20:21.169#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[BuildCloudUndeployModelStep] Executing task "buildUndeployModelTask" of process "11932648-7e9c-11f1-bf2e-eeee0a81438b"...#
+#2026 07 13 09:20:21.170#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[BuildCloudUndeployModelStep] Building cloud undeployment model...#
+#2026 07 13 09:20:21.173#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[BuildCloudUndeployModelStep] Detecting service keys to delete.#
+#2026 07 13 09:20:21.175#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[BuildCloudUndeployModelStep] No deployed service keys detected!#
+#2026 07 13 09:20:21.175#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[BuildCloudUndeployModelStep] Detected service keys to delete "[]"#
+#2026 07 13 09:20:21.181#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[BuildCloudUndeployModelStep] MTA modules: [bookshop-srv]#
+#2026 07 13 09:20:21.181#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[BuildCloudUndeployModelStep] Modules to undeploy: [ ]#
+#2026 07 13 09:20:21.181#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[BuildCloudUndeployModelStep] Modules that won't be changed: [ ]#
+#2026 07 13 09:20:21.183#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[BuildCloudUndeployModelStep] Subscriptions to delete: [ ]#
+#2026 07 13 09:20:21.186#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[BuildCloudUndeployModelStep] Cloud services to delete: []#
+#2026 07 13 09:20:21.186#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[BuildCloudUndeployModelStep] Cloud applications to undeploy: [ ]#
+#2026 07 13 09:20:21.190#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+[BuildCloudUndeployModelStep] Cloud undeployment model built#
+#2026 07 13 09:20:21.190#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7427#
+Step "Build Undeploy Model" finished#
+#2026 07 13 09:20:21.247#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7432#
+[AddDomainsStep] Executing task "addDomainsTask" of process "11932648-7e9c-11f1-bf2e-eeee0a81438b"...#
+#2026 07 13 09:20:21.250#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7432#
+[AddDomainsStep] Custom domains: []#
+#2026 07 13 09:20:21.250#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7432#
+Step "Add Domains" finished#
+#2026 07 13 09:20:21.302#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7432#
+[PrepareModulesDeploymentStep] Executing task "prepareModulesDeploymentTask" of process "1252091f-7e9c-11f1-bf2e-eeee0a81438b"...#
+#2026 07 13 09:20:21.303#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7432#
+[PrepareModulesDeploymentStep] Preparing modules deployment...#
+#2026 07 13 09:20:21.311#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7432#
+Step "Prepare Modules Deployment" finished#
+#2026 07 13 09:20:21.363#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7432#
+[ComputeNextModulesStep] Executing task "computeNextModulesToDeployInParallel" of process "1252091f-7e9c-11f1-bf2e-eeee0a81438b"...#
+#2026 07 13 09:20:21.365#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7432#
+[ComputeNextModulesStep] Computing modules for next parallel iteration...#
+#2026 07 13 09:20:21.368#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7432#
+[ComputeNextModulesStep] Completed modules detected: []#
+#2026 07 13 09:20:21.368#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7432#
+[ComputeNextModulesStep] All modules for deploy detected: [bookshop-srv]#
+#2026 07 13 09:20:21.368#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7432#
+[ComputeNextModulesStep] Modules not for deploy detected: []#
+#2026 07 13 09:20:21.368#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7432#
+[ComputeNextModulesStep] Computed modules for next parallel iteration: [ {
+  "majorSchemaVersion" : 3,
+  "name" : "bookshop-srv",
+  "type" : "javascript.nodejs",
+  "path" : "bookshop-srv",
+  "properties" : { },
+  "parameters" : {
+    "app-name" : "bookshop-srv",
+    "buildpack" : "nodejs_buildpack",
+    "default-app-name" : "bookshop-srv",
+    "default-host" : "org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv",
+    "default-instances" : 1,
+    "default-live-app-name" : "bookshop-srv",
+    "default-live-domain" : "cfapps.eu10-005.hana.ondemand.com",
+    "default-live-host" : "org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv",
+    "default-live-uri" : "org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv.cfapps.eu10-005.hana.ondemand.com",
+    "default-live-url" : "https://org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv.cfapps.eu10-005.hana.ondemand.com",
+    "default-uri" : "org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv.cfapps.eu10-005.hana.ondemand.com",
+    "default-url" : "https://org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv.cfapps.eu10-005.hana.ondemand.com",
+    "dependency-type" : "soft",
+    "domain" : "cfapps.eu10-005.hana.ondemand.com",
+    "generated-password" : "********",
+    "generated-user" : "********",
+    "host" : "org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv",
+    "instances" : 1,
+    "protocol" : "https"
+  },
+  "requiredDependencies" : [ ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "srv-api",
+    "isPublic" : false,
+    "properties" : {
+      "srv-url" : "https://org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv.cfapps.eu10-005.hana.ondemand.com"
+    },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "bookshop-srv",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "deployedAfter" : [ ],
+  "hooks" : [ ]
+} ]#
+#2026 07 13 09:20:21.368#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7432#
+Step "Compute Next Modules To Deploy" finished#
+#2026 07 13 09:20:21.543#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7432#
+[ProcessDescriptorStep] Executing task "reprocessDescriptorTask" of process "1272b134-7e9c-11f1-bf2e-eeee0a81438b"...#
+#2026 07 13 09:20:21.545#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7432#
+[ProcessDescriptorStep] Resolving properties and parameters in merged descriptor...#
+#2026 07 13 09:20:21.547#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7432#
+[ProcessDescriptorStep] Subscriptions: [ ]#
+#2026 07 13 09:20:21.555#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7432#
+[ProcessDescriptorStep] MTA modules: [bookshop-srv]#
+#2026 07 13 09:20:21.559#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7432#
+[ProcessDescriptorStep] Resolved deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.3.0",
+  "id" : "bookshop",
+  "version" : "1.0.0",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "bookshop-srv",
+    "type" : "javascript.nodejs",
+    "path" : "bookshop-srv",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv.cfapps.eu10-005.hana.ondemand.com",
+      "default-app-name" : "bookshop-srv",
+      "generated-password" : "********",
+      "default-live-url" : "https://org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv.cfapps.eu10-005.hana.ondemand.com",
+      "default-uri" : "org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv.cfapps.eu10-005.hana.ondemand.com",
+      "default-instances" : 1,
+      "default-live-host" : "org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv",
+      "app-name" : "bookshop-srv",
+      "default-live-uri" : "org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv.cfapps.eu10-005.hana.ondemand.com",
+      "protocol" : "https",
+      "default-live-app-name" : "bookshop-srv",
+      "default-live-domain" : "cfapps.eu10-005.hana.ondemand.com",
+      "domain" : "cfapps.eu10-005.hana.ondemand.com",
+      "host" : "org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv",
+      "generated-user" : "********"
+    },
+    "requiredDependencies" : [ ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "srv-api",
+      "isPublic" : false,
+      "properties" : {
+        "srv-url" : "https://org-build-igen43-lab-inhouse-jv4r8a7p-bookshop-dev-bookshop-srv.cfapps.eu10-005.hana.ondemand.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "bookshop-srv",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ ],
+  "parameters" : {
+    "mta-id" : "bookshop",
+    "authorization-url" : "********",
+    "org-guid" : "940c990c-25b7-469d-bad0-6e76cc03b487",
+    "org" : "org-build-igen43-lab-inhouse-jv4r8a7p",
+    "deploy-target" : "org-build-igen43-lab-inhouse-jv4r8a7p bookshop-dev",
+    "enable-parallel-deployments" : true,
+    "region-primary-domain" : "eu10.hana.ondemand.com",
+    "space" : "bookshop-dev",
+    "region-domain" : "eu10-005.hana.ondemand.com",
+    "xs-api-url" : "https://api.cf.eu10-005.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.eu10-005.hana.ondemand.com",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.eu10-005.hana.ondemand.com",
+    "mta-version" : "1.0.0",
+    "xs-auth-url" : "********",
+    "space-guid" : "b9af1975-cf68-4045-88e6-501ed15d25dd",
+    "user" : "********",
+    "controller-url" : "https://api.cf.eu10-005.hana.ondemand.com",
+    "timestamp" : "20260713092020"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2026 07 13 09:20:21.559#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7432#
+[ProcessDescriptorStep] Merged descriptor properties and parameters resolved#
+#2026 07 13 09:20:21.559#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7432#
+Step "Re-Process Descriptor Step" finished#
+#2026 07 13 09:20:21.614#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7426#
+[BuildApplicationDeployModelStep] Executing task "buildApplicationDeployModelTask" of process "1272b134-7e9c-11f1-bf2e-eeee0a81438b"...#
+#2026 07 13 09:20:21.619#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7426#
+[BuildApplicationDeployModelStep] Building cloud deployment model for application "bookshop-srv"...#
+#2026 07 13 09:20:21.625#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7426#
+[BuildApplicationDeployModelStep] No health-check-type is specified. Setting default type: port#
+#2026 07 13 09:20:21.626#Z#INFO#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7426#
+[BuildApplicationDeployModelStep] Building configuration entries for org org-build-igen43-lab-inhouse-jv4r8a7p, space bookshop-dev, spaceId b9af1975-cf68-4045-88e6-501ed15d25dd and namespace null!#
+#2026 07 13 09:20:21.627#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7426#
+[BuildApplicationDeployModelStep] Configuration entries to publish: [ ]#
+#2026 07 13 09:20:21.627#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7426#
+[BuildApplicationDeployModelStep] Cloud deployment model for application built#
+#2026 07 13 09:20:21.627#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7426#
+Step "Build Application Deploy Model" finished#
+#2026 07 13 09:20:21.701#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7426#
+[CreateOrUpdateAppStep] Executing task "createAppTask" of process "1272b134-7e9c-11f1-bf2e-eeee0a81438b"...#
+#2026 07 13 09:20:21.705#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7426#
+[CreateOrUpdateAppStep] Getting application "bookshop-srv"...#
+#2026 07 13 09:20:21.744#Z#INFO#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7426#
+[CreateOrUpdateAppStep] Updating application "bookshop-srv"...#
+#2026 07 13 09:20:21.753#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7426#
+[CreateOrUpdateAppStep] Getting process for application "fc436ba4-41ea-422c-8001-2a81e175edfd"...#
+#2026 07 13 09:20:21.795#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7426#
+[CreateOrUpdateAppStep] Getting routes for application "fc436ba4-41ea-422c-8001-2a81e175edfd"...#
+#2026 07 13 09:20:21.832#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7426#
+[CreateOrUpdateAppStep] Getting features for application "fc436ba4-41ea-422c-8001-2a81e175edfd"#
+#2026 07 13 09:20:21.860#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7426#
+[CreateOrUpdateAppStep] Updating staging of application "bookshop-srv" to: {
+  "buildpacks" : [ "nodejs_buildpack" ],
+  "healthCheckType" : "port",
+  "appFeatures" : { }
+}#
+#2026 07 13 09:20:22.062#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7426#
+[CreateOrUpdateAppStep] Application "bookshop-srv" updated#
+#2026 07 13 09:20:22.062#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7426#
+[CreateOrUpdateAppStep] Getting environment of application "fc436ba4-41ea-422c-8001-2a81e175edfd"...#
+#2026 07 13 09:20:22.122#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7426#
+[CreateOrUpdateAppStep] Application "bookshop-srv" updated#
+#2026 07 13 09:20:22.122#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7426#
+Step "Create App" finished#
+#2026 07 13 09:20:22.196#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7426#
+[UploadAppStep] Executing task "uploadAppTask" of process "1272b134-7e9c-11f1-bf2e-eeee0a81438b"...#
+#2026 07 13 09:20:22.197#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7426#
+[UploadAppStep] Application upload timeout is default one: 3,600 seconds#
+#2026 07 13 09:20:22.198#Z#INFO#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7426#
+[UploadAppStep] Uploading application "bookshop-srv"...#
+#2026 07 13 09:20:22.205#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7426#
+[UploadAppStep] Getting application "bookshop-srv"...#
+#2026 07 13 09:20:22.233#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7426#
+[UploadAppStep] Getting environment of application "fc436ba4-41ea-422c-8001-2a81e175edfd"...#
+#2026 07 13 09:20:22.276#Z#INFO#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7426#
+[UploadAppStep] Calculating application digest: "bookshop-srv"#
+#2026 07 13 09:20:22.418#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7426#
+Step "Upload App" finished#
+#2026 07 13 09:20:29.358#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-15968#
+[UploadAppStep] Executing task "uploadAppTask" of process "1272b134-7e9c-11f1-bf2e-eeee0a81438b"...#
+#2026 07 13 09:20:29.359#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-15968#
+[UploadAppStep] Application upload timeout is default one: 3,600 seconds#
+#2026 07 13 09:20:29.425#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#pool-20-thread-4#
+[UploadAppStep] Upload of application: bookshop-srv started on instance: 2#
+#2026 07 13 09:20:29.425#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#pool-20-thread-4#
+[UploadAppStep] Uploading file "bookshop-srv/data.zip" for application "bookshop-srv"#
+#2026 07 13 09:20:29.565#Z#INFO#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#pool-20-thread-4#
+[UploadAppStep] Time elapsed for app binary download: 139 in millis#
+#2026 07 13 09:20:29.565#Z#INFO#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#pool-20-thread-4#
+[UploadAppStep] Size of app bookshop-srv is 13,682,334 bytes#
+#2026 07 13 09:20:29.565#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#pool-20-thread-4#
+[UploadAppStep] Asynchronously uploading binaries for application "bookshop-srv"...#
+#2026 07 13 09:20:29.830#Z#INFO#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#pool-20-thread-4#
+[UploadAppStep] Started async upload of application "bookshop-srv"#
+#2026 07 13 09:20:29.835#Z#INFO#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-15968#
+[UploadAppStep] Time elapsed for upload: 475 in millis#
+#2026 07 13 09:20:29.835#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-15968#
+[UploadAppStep] Getting application "bookshop-srv"...#
+#2026 07 13 09:20:29.862#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#App upload monitor: a5aa228f-e606-4828-8d77-36f85188f2af#
+[UploadAppStep] Upload status: PROCESSING_UPLOAD#
+#2026 07 13 09:20:29.870#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-15968#
+[UploadAppStep] Getting environment of application "fc436ba4-41ea-422c-8001-2a81e175edfd"...#
+#2026 07 13 09:20:29.907#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-15968#
+[UploadAppStep] Updating environment of application "bookshop-srv"#
+#2026 07 13 09:20:29.997#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-15968#
+Step "Upload App" finished#
+#2026 07 13 09:20:34.890#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#App upload monitor: a5aa228f-e606-4828-8d77-36f85188f2af#
+[UploadAppStep] Upload status: PROCESSING_UPLOAD#
+#2026 07 13 09:20:39.379#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-15985#
+[UploadAppStep] Executing task "uploadAppTask" of process "1272b134-7e9c-11f1-bf2e-eeee0a81438b"...#
+#2026 07 13 09:20:39.380#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-15985#
+[UploadAppStep] Application upload timeout is default one: 3,600 seconds#
+#2026 07 13 09:20:39.380#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-15985#
+[UploadAppStep] Checking upload status of application "bookshop-srv"...#
+#2026 07 13 09:20:39.381#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-15985#
+[UploadAppStep] Getting package "a5aa228f-e606-4828-8d77-36f85188f2af"...#
+#2026 07 13 09:20:39.411#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-15985#
+[UploadAppStep] Application "bookshop-srv" uploaded#
+#2026 07 13 09:20:39.413#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-15985#
+Step "Upload App" finished#
+#2026 07 13 09:20:39.545#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-15987#
+[ScaleAppStep] Executing task "scaleAppTask" of process "1272b134-7e9c-11f1-bf2e-eeee0a81438b"...#
+#2026 07 13 09:20:39.549#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-15987#
+[ScaleAppStep] Scaling application "bookshop-srv"...#
+#2026 07 13 09:20:39.549#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-15987#
+[ScaleAppStep] Getting application guid "bookshop-srv"...#
+#2026 07 13 09:20:39.585#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-15987#
+[ScaleAppStep] Getting process for application "fc436ba4-41ea-422c-8001-2a81e175edfd"...#
+#2026 07 13 09:20:39.624#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-15987#
+[ScaleAppStep] Application "bookshop-srv" scaled#
+#2026 07 13 09:20:39.624#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-15987#
+Step "Scale App" finished#
+#2026 07 13 09:20:39.655#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-15987#
+[DetermineDesiredStateAchievingActionsStep] Executing task "determineDesiredStateAchievingActionsTask" of process "1272b134-7e9c-11f1-bf2e-eeee0a81438b"...#
+#2026 07 13 09:20:39.657#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-15987#
+[DetermineDesiredStateAchievingActionsStep] Getting application "bookshop-srv"...#
+#2026 07 13 09:20:39.705#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-15987#
+[DetermineDesiredStateAchievingActionsStep] Getting instances for application "bookshop-srv"...#
+#2026 07 13 09:20:39.705#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-15987#
+[DetermineDesiredStateAchievingActionsStep] Getting environment of application "fc436ba4-41ea-422c-8001-2a81e175edfd"...#
+#2026 07 13 09:20:39.741#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-15987#
+[DetermineDesiredStateAchievingActionsStep] Current state of application bookshop-srv: STOPPED#
+#2026 07 13 09:20:39.741#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-15987#
+[DetermineDesiredStateAchievingActionsStep] Desired state of application bookshop-srv: STARTED#
+#2026 07 13 09:20:39.741#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-15987#
+[DetermineDesiredStateAchievingActionsStep] Actions that should be executed on application bookshop-srv: [STAGE, START]#
+#2026 07 13 09:20:39.741#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-15987#
+Step "Determine Desired State Achieving Actions" finished#
+#2026 07 13 09:20:39.934#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#App upload monitor: a5aa228f-e606-4828-8d77-36f85188f2af#
+[UploadAppStep] Upload status: READY#
+#2026 07 13 09:20:39.771#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-15987#
+[StageAppStep] Executing task "stageAppTask" of process "1272b134-7e9c-11f1-bf2e-eeee0a81438b"...#
+#2026 07 13 09:20:39.771#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-15987#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 07 13 09:20:39.773#Z#INFO#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-15987#
+[StageAppStep] Staging application "bookshop-srv"...#
+#2026 07 13 09:20:39.777#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-15987#
+[StageAppStep] Creating build for package "a5aa228f-e606-4828-8d77-36f85188f2af"...#
+#2026 07 13 09:20:40.191#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-15987#
+Step "Stage App" finished#
+#2026 07 13 09:20:49.515#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7444#
+[StageAppStep] Executing task "stageAppTask" of process "1272b134-7e9c-11f1-bf2e-eeee0a81438b"...#
+#2026 07 13 09:20:49.517#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7444#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 07 13 09:20:49.518#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7444#
+[StageAppStep] Checking status of application "bookshop-srv"...#
+#2026 07 13 09:20:49.518#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7444#
+[StageAppStep] Getting build "7ed06314-c4d7-4db4-86e3-b78a75b0c7ec"...#
+#2026 07 13 09:20:49.553#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7444#
+[StageAppStep] Staging status of application "bookshop-srv": FAILED#
+#2026 07 13 09:20:49.554#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7444#
+[StageAppStep] Getting application guid "bookshop-srv"...#
+#2026 07 13 09:20:49.639#Z#ERROR#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7444#
+[StageAppStep] Error staging application "bookshop-srv": BuildpackCompileFailed - App staging failed in the buildpack compile phase. Check the application logs of your application for details.#
+#2026 07 13 09:20:49.648#Z#INFO#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7444#
+[StageAppStep] Download the MTA operation logs for more details.#
+#2026 07 13 09:20:49.655#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7444#
+Step "Stage App" finished#
+#2026 07 13 09:20:52.641#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7445#
+[StageAppStep] Executing task "stageAppTask" of process "1272b134-7e9c-11f1-bf2e-eeee0a81438b"...#
+#2026 07 13 09:20:52.643#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7445#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 07 13 09:20:52.724#Z#INFO#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7445#
+[StageAppStep] Staging application "bookshop-srv"...#
+#2026 07 13 09:20:52.730#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7445#
+[StageAppStep] Creating build for package "a5aa228f-e606-4828-8d77-36f85188f2af"...#
+#2026 07 13 09:20:53.198#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7445#
+Step "Stage App" finished#
+#2026 07 13 09:20:59.544#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-16002#
+[StageAppStep] Executing task "stageAppTask" of process "1272b134-7e9c-11f1-bf2e-eeee0a81438b"...#
+#2026 07 13 09:20:59.545#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-16002#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 07 13 09:20:59.545#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-16002#
+[StageAppStep] Checking status of application "bookshop-srv"...#
+#2026 07 13 09:20:59.545#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-16002#
+[StageAppStep] Getting build "23c41802-d7d0-43b9-908e-92782e1a7224"...#
+#2026 07 13 09:20:59.584#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-16002#
+[StageAppStep] Staging status of application "bookshop-srv": FAILED#
+#2026 07 13 09:20:59.585#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-16002#
+[StageAppStep] Getting application guid "bookshop-srv"...#
+#2026 07 13 09:20:59.680#Z#ERROR#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-16002#
+[StageAppStep] Error staging application "bookshop-srv": BuildpackCompileFailed - App staging failed in the buildpack compile phase. Check the application logs of your application for details.#
+#2026 07 13 09:20:59.684#Z#INFO#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-16002#
+[StageAppStep] Download the MTA operation logs for more details.#
+#2026 07 13 09:20:59.689#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-16002#
+Step "Stage App" finished#
+#2026 07 13 09:21:02.783#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7450#
+[StageAppStep] Executing task "stageAppTask" of process "1272b134-7e9c-11f1-bf2e-eeee0a81438b"...#
+#2026 07 13 09:21:02.785#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7450#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 07 13 09:21:02.788#Z#INFO#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7450#
+[StageAppStep] Staging application "bookshop-srv"...#
+#2026 07 13 09:21:02.794#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7450#
+[StageAppStep] Creating build for package "a5aa228f-e606-4828-8d77-36f85188f2af"...#
+#2026 07 13 09:21:03.204#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7450#
+Step "Stage App" finished#
+#2026 07 13 09:21:09.569#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-16006#
+[StageAppStep] Executing task "stageAppTask" of process "1272b134-7e9c-11f1-bf2e-eeee0a81438b"...#
+#2026 07 13 09:21:09.570#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-16006#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 07 13 09:21:09.639#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-16006#
+[StageAppStep] Checking status of application "bookshop-srv"...#
+#2026 07 13 09:21:09.639#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-16006#
+[StageAppStep] Getting build "9fbd65a3-9038-413a-9770-5556d42d2674"...#
+#2026 07 13 09:21:09.698#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-16006#
+[StageAppStep] Staging status of application "bookshop-srv": FAILED#
+#2026 07 13 09:21:09.699#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-16006#
+[StageAppStep] Getting application guid "bookshop-srv"...#
+#2026 07 13 09:21:09.775#Z#ERROR#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-16006#
+[StageAppStep] Error staging application "bookshop-srv": BuildpackCompileFailed - App staging failed in the buildpack compile phase. Check the application logs of your application for details.#
+#2026 07 13 09:21:09.779#Z#INFO#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-16006#
+[StageAppStep] Download the MTA operation logs for more details.#
+#2026 07 13 09:21:09.782#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-16006#
+Step "Stage App" finished#
+#2026 07 13 09:21:12.889#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7451#
+[StageAppStep] Executing task "stageAppTask" of process "1272b134-7e9c-11f1-bf2e-eeee0a81438b"...#
+#2026 07 13 09:21:12.890#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7451#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 07 13 09:21:12.893#Z#INFO#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7451#
+[StageAppStep] Staging application "bookshop-srv"...#
+#2026 07 13 09:21:12.899#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7451#
+[StageAppStep] Creating build for package "a5aa228f-e606-4828-8d77-36f85188f2af"...#
+#2026 07 13 09:21:13.254#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-7451#
+Step "Stage App" finished#
+#2026 07 13 09:21:19.638#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-16016#
+[StageAppStep] Executing task "stageAppTask" of process "1272b134-7e9c-11f1-bf2e-eeee0a81438b"...#
+#2026 07 13 09:21:19.639#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-16016#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 07 13 09:21:19.700#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-16016#
+[StageAppStep] Checking status of application "bookshop-srv"...#
+#2026 07 13 09:21:19.700#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-16016#
+[StageAppStep] Getting build "c29d9981-31b6-4fcc-99d1-106dbc785012"...#
+#2026 07 13 09:21:19.750#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-16016#
+[StageAppStep] Staging status of application "bookshop-srv": FAILED#
+#2026 07 13 09:21:19.751#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-16016#
+[StageAppStep] Getting application guid "bookshop-srv"...#
+#2026 07 13 09:21:19.867#Z#ERROR#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-16016#
+[StageAppStep] Error staging application "bookshop-srv": BuildpackCompileFailed - App staging failed in the buildpack compile phase. Check the application logs of your application for details.#
+#2026 07 13 09:21:19.871#Z#INFO#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-16016#
+[StageAppStep] Download the MTA operation logs for more details.#
+#2026 07 13 09:21:19.875#Z#DEBUG#1192ff12-7e9c-11f1-bf2e-eeee0a81438b.OPERATION#flowable-async-job-executor-thread-16016#
+Step "Stage App" finished#
